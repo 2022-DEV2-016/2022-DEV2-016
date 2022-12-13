@@ -1,0 +1,11 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners
+        android:bottomLeftRadius="@dimen/rounded_borders"
+        android:bottomRightRadius="0dp"
+        android:topLeftRadius="@dimen/rounded_borders"
+        android:topRightRadius="0dp" />
+    <solid android:color="@color/white" />
+
+    <stroke android:color="@color/berlin_clock_gray"
+        android:width="@dimen/dimen_10" />
+</shape>

@@ -7,4 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- berlin_clock -->
+    <color name="berlin_clock_gray">#424242</color>
+    <color name="berlin_clock_yellow">#FFEB3B</color>
+    <color name="berlin_clock_red">#E53935</color>
 </resources>
