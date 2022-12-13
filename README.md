@@ -18,3 +18,6 @@ The final two rows represent the minutes. The upper row represents 5 minute bloc
 - You have to download project from Github
 - You have to use a device with minimum Android 5.0
 - Run the project from main branch on real device or emulator
+
+## How to Use the Project
+When you run the project we use the actual time to show Berlin Clock
