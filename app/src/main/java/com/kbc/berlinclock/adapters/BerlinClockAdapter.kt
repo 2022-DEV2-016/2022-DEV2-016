@@ -12,6 +12,19 @@ class BerlinClockAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     var items = mutableListOf<ViewType>()
     private val delegateAdapters = SparseArrayCompat<IDelegateAdapter>()
 
+    fun addDelegateAdapter(viewType: Int, delegateAdapter: IDelegateAdapter) {
+        delegateAdapters.put(viewType, delegateAdapter)
+    }
+
+    fun getDelegateAdapter(viewType: Int): IDelegateAdapter? = delegateAdapters.get(viewType)
+
+    fun addItems(elements: List<ViewType>) {
+        val startIndex = items.size
+        val endIndex = elements.size
+        items.addAll(elements = elements)
+        notifyItemRangeInserted(startIndex, endIndex)
+    }
+
     override fun getItemCount(): Int = items.size
 
     override fun getItemViewType(position: Int): Int = items[position].getViewType()

@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun manageBlocks(blocks: Blocks) {
-        Log.d("testbnp","receive result here $blocks --")
+
     }
 
     private fun initializeRecyclerView() {
