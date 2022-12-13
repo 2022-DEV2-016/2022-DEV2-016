@@ -18,7 +18,7 @@ The final two rows represent the minutes. The upper row represents 5 minute bloc
 - Clone repository:
 ```
 cd folder_project
-git clone git@gitlab.audaxis.com:mobile/kmm/sudinfo.git
+git clone https://github.com/2022-DEV2-016/2022-DEV2-016.git
 ```
 - You have to use a device with minimum Android 5.0
 - Run the project from main branch on real device or emulator
