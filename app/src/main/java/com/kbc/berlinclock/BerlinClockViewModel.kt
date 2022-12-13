@@ -24,7 +24,6 @@ class BerlinClockViewModel: ViewModel() {
 
     fun starts() {
         viewModelScope.launch(Dispatchers.IO) {
-
             everySeconds()
                 .collect {
                     with(Calendar.getInstance()) {
