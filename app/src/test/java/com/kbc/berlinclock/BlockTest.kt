@@ -5,7 +5,12 @@ import org.junit.Test
 
 class BlockTest {
 
-    private val block = Blocks(hourFirstRow = 3, hourSecondRow = 1, minuteFirstRow = 6, minuteSecondRow = 0)
+    private val block = Blocks(
+        hourFirstRow = 3,
+        hourSecondRow = 1,
+        minuteFirstRow = 6,
+        minuteSecondRow = 0,
+        isOdd = false)
 
     @Test
     fun `should have the property hourFirstRow when use the class Block`() {
@@ -25,5 +30,10 @@ class BlockTest {
     @Test
     fun `should have the property minuteSecondRow when use the class Block`() {
         Assert.assertEquals(0, block.minuteSecondRow)
+    }
+
+    @Test
+    fun `should have the property isOdd when use the class Block`() {
+        Assert.assertEquals(false, block.isOdd)
     }
 }
