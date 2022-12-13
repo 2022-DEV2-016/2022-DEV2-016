@@ -3,6 +3,7 @@ package com.kbc.berlinclock
 private const val MODULO_VALUE = 2
 private const val BLOCKS_VALUE = 5
 const val tickIntervalMs: Long = 1000
+const val HEIGHT = 60
 
 fun isOdd(number: Int): Boolean = number.mod(other = MODULO_VALUE) != 0
 
