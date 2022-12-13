@@ -26,4 +26,9 @@ class BerlinClockTest {
         Assert.assertFalse(isOdd(20))
         Assert.assertFalse(isOdd(58))
     }
+
+    @Test
+    fun `should the number of blocks when give a hour`() {
+        Assert.assertEquals(0, giveMeBlocksForHour())
+    }
 }
