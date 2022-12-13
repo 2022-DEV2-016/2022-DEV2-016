@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             //text
-            //binding.result.text = result.text
+            binding.activityMainText.text = blocks.text
         }
     }
 
@@ -81,6 +81,7 @@ class MainActivity : AppCompatActivity() {
             berlinClockAdapter.addItems(elements = getItems())
             visibility = View.VISIBLE
         }
+        binding.activityMainText.visibility = View.VISIBLE
     }
 
     private fun getItems(): List<ViewType> {

@@ -10,7 +10,8 @@ class BlockTest {
         hourSecondRow = 1,
         minuteFirstRow = 6,
         minuteSecondRow = 0,
-        isOdd = false)
+        isOdd = false,
+        text = "test text")
 
     @Test
     fun `should have the property hourFirstRow when use the class Block`() {
@@ -35,5 +36,10 @@ class BlockTest {
     @Test
     fun `should have the property isOdd when use the class Block`() {
         Assert.assertEquals(false, block.isOdd)
+    }
+
+    @Test
+    fun `should have the property text when use the class Block`() {
+        Assert.assertEquals("test text", block.text)
     }
 }

@@ -105,6 +105,7 @@ class BerlinClockTest {
     fun `should returns the class Blocks and isOdd when gives the hour 15 and minutes 55`() {
         val blocks = giveMeBlocksForHour(hour = 15, minute = 0, 0)
         Assert.assertFalse(blocks.isOdd)
+        Assert.assertEquals("15:0",blocks.text)
         Assert.assertEquals(3, blocks.hourFirstRow)
         Assert.assertEquals(0, blocks.hourSecondRow)
         Assert.assertEquals(0, blocks.minuteFirstRow)

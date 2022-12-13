@@ -13,5 +13,6 @@ fun giveMeBlocksForHour(hour: Int, minute: Int, second: Int): Blocks =
         hourSecondRow = hour.mod(other = BLOCKS_VALUE),
         minuteFirstRow = minute.div(other = BLOCKS_VALUE),
         minuteSecondRow = minute.mod(other = BLOCKS_VALUE),
-        isOdd = isOdd(number = second)
+        isOdd = isOdd(number = second),
+        text = "$hour:$minute"
     )
