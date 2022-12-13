@@ -1,3 +1,5 @@
 package com.kbc.berlinclock
 
-fun isOdd(): Boolean = true
+private const val MODULO_VALUE = 2
+
+fun isOdd(number: Int): Boolean = number.mod(other = MODULO_VALUE) != 0
