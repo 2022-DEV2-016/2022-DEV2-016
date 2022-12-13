@@ -29,8 +29,24 @@ class BerlinClockTest {
 
     @Test
     fun `should returns the class Blocks when gives the hour 18`() {
-        val blocks = giveMeBlocksForHour(hour = 18)
+        val blocks = giveMeBlocksForHour(hour = 18, minute = 0)
         Assert.assertEquals(3, blocks.hourFirstRow)
         Assert.assertEquals(3, blocks.hourSecondRow)
+    }
+
+    @Test
+    fun `should returns the class Blocks when gives the hour 18 and minutes 35`() {
+        val blocks = giveMeBlocksForHour(hour = 18, minute = 35)
+        Assert.assertEquals(7, blocks.minuteFirstRow)
+        Assert.assertEquals(0, blocks.minuteSecondRow)
+    }
+
+    @Test
+    fun `should returns the class Blocks when gives the hour 18 and minutes 37`() {
+        val blocks = giveMeBlocksForHour(hour = 18, minute = 37)
+        Assert.assertEquals(3, blocks.hourFirstRow)
+        Assert.assertEquals(3, blocks.hourSecondRow)
+        Assert.assertEquals(7, blocks.minuteFirstRow)
+        Assert.assertEquals(2, blocks.minuteSecondRow)
     }
 }
