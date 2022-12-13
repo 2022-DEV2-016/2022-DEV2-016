@@ -8,4 +8,5 @@ plugins {
 ext {
     androidKTXVersion = '2.5.1'
     viewModelVersion = '1.6.1'
+    coroutineTestVersion = '1.6.4'
 }
