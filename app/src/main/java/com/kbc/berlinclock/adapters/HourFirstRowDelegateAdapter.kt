@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.kbc.berlinclock.*
 import com.kbc.berlinclock.databinding.ItemBlocksBinding
+import com.kbc.berlinclock.entity.*
 import com.kbc.berlinclock.interfaces.IDelegateAdapter
 import com.kbc.berlinclock.interfaces.ViewType
 

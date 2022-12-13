@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.kbc.berlinclock.Lamp
+import com.kbc.berlinclock.entity.Lamp
 import com.kbc.berlinclock.R
 import com.kbc.berlinclock.databinding.ItemBlockBinding
 import com.kbc.berlinclock.interfaces.IDelegateAdapter

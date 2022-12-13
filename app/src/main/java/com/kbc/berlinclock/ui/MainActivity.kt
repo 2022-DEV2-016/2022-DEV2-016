@@ -1,12 +1,14 @@
-package com.kbc.berlinclock
+package com.kbc.berlinclock.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.activity.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.kbc.berlinclock.*
 import com.kbc.berlinclock.adapters.*
 import com.kbc.berlinclock.databinding.ActivityMainBinding
+import com.kbc.berlinclock.entity.*
 import com.kbc.berlinclock.interfaces.ViewType
 
 class MainActivity : AppCompatActivity() {
@@ -103,7 +105,7 @@ class MainActivity : AppCompatActivity() {
                 i == 0 -> {
                     list.add(element = LeftRoundedBorders(colorId = R.color.white, resourceId = R.drawable.ic_left_rounded_borders, width = width, height = HEIGHT))
                 }
-                i < end -> list.add(element = Rectangle(colorId = R.color.white, resourceId = R.drawable.ic_rectangle, width = width, height =HEIGHT))
+                i < end -> list.add(element = Rectangle(colorId = R.color.white, resourceId = R.drawable.ic_rectangle, width = width, height = HEIGHT))
                 i == end -> {
                     list.add(element = Rectangle(colorId = R.color.white, resourceId = R.drawable.ic_right_rounded_borders, width = width, height = HEIGHT))
                 }

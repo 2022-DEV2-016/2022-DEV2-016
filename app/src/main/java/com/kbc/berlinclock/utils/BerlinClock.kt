@@ -1,5 +1,7 @@
 package com.kbc.berlinclock
 
+import com.kbc.berlinclock.entity.Blocks
+
 private const val MODULO_VALUE = 2
 private const val BLOCKS_VALUE = 5
 const val tickIntervalMs: Long = 1000

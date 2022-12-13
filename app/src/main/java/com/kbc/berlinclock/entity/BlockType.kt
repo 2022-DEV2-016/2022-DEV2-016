@@ -1,4 +1,4 @@
-package com.kbc.berlinclock
+package com.kbc.berlinclock.entity
 
 enum class BlockType {
     LEFT_BORDERS,

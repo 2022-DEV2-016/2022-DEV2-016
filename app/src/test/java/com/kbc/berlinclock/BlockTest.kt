@@ -1,5 +1,6 @@
 package com.kbc.berlinclock
 
+import com.kbc.berlinclock.entity.Blocks
 import org.junit.Assert
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.kbc.berlinclock
+package com.kbc.berlinclock.entity
 
 data class Blocks(
     val hourFirstRow: Int,

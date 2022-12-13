@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.kbc.berlinclock.R
-import com.kbc.berlinclock.RightRoundedBorders
+import com.kbc.berlinclock.entity.RightRoundedBorders
 import com.kbc.berlinclock.databinding.ItemBlockBinding
 import com.kbc.berlinclock.interfaces.IDelegateAdapter
 import com.kbc.berlinclock.interfaces.ViewType

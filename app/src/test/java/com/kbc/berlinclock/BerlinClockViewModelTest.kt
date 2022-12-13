@@ -1,5 +1,6 @@
 package com.kbc.berlinclock
 
+import com.kbc.berlinclock.ui.BerlinClockViewModel
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert
 import org.junit.Test

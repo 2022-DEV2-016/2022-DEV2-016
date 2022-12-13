@@ -1,9 +1,12 @@
-package com.kbc.berlinclock
+package com.kbc.berlinclock.ui
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.kbc.berlinclock.entity.Blocks
+import com.kbc.berlinclock.giveMeBlocksForHour
+import com.kbc.berlinclock.tickIntervalMs
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
