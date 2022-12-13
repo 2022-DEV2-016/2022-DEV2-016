@@ -7,6 +7,6 @@ class BerlinClockTest {
 
     @Test
     fun `should returns true when parameter is an odd number`() {
-        Assert.assertTrue(BerlinClock.isOdd())
+        Assert.assertTrue(isOdd())
     }
 }
